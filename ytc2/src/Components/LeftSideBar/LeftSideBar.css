@@ -1,0 +1,91 @@
+.conatiner_LeftSideBar {
+    background-color: rgb(46, 46, 46);
+    width: 4.8rem;
+    height: calc(100vh-3.5rem);
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.icons_sidebar_div {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.icon_sidebar {
+    margin: auto;
+}
+
+.text_sidebar_icon {
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.8rem;
+    padding-inline-start: 0.2rem;
+}
+
+.icons_sidebar_div:hover,
+.icons_sidebar_div:active {
+    color: aliceblue;
+    background-color: rgb(103, 100, 100);
+}
+
+
+
+/* DrawerSideBar */
+.container_DrawerLeftSidebar {
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    z-index: 500;
+}
+
+.container2_DrawerLeftSidebar {
+    height: calc(100vh - 3.6rem);
+    overflow-y: auto;
+    background-color: rgb(28, 28, 28);
+    width: 15rem;
+}
+.drawer_LeftSidebar,.libraryBtn_Drawersidebar{
+    padding-top: 0.5rem;
+    border-bottom: 2px solid rgb(128,128,128,0.293);
+
+
+}
+.icons_sidebar_div p{
+    display: flex;
+    margin: 0;
+}
+.subscriptions_lsdbar{
+color: white;
+}
+.subscriptions_lsdbar h3{
+    text-decoration: underline;
+    margin: 20px 10px;
+}
+.chanel_lsdbar{
+    display: flex;
+    cursor: pointer;
+}
+.chanel_lsdbar:hover{
+    color: rgb(77,77,243);
+
+}
+.chanel_lsdbar p{
+    border: 1px solid;
+    background-color: grey;
+    padding: 0.5rem;
+    border-radius: 100%;
+    margin: 1rem;
+}
+.chanel_lsdbar div{
+    margin: auto;
+    width: 60%;
+}
+.container3_DrawerLeftSidebar{
+    flex-grow: 1;
+    background-color: rgb(0,0,0,0.488);
+
+}
